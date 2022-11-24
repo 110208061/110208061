@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<style type = "text/css">
+
+#header {
+	font-weight: bold;
+	color:purple;
+	background-color: skyblue;
+}
+
+span {
+	color:darkblue;
+	border: 1px solid black;
+}
+
+.special span {
+	color:inherit;
+}
+
+</style>
+</head>
+<body>
+
+	<form>
+		<table border = "1" style = "width:100">
+
+		<!-- First Row-->
+			<tr>
+				<th colspan = "3">
+					<h1 id = "header">My name is Jason</h1>
+				</th>
+			</tr>
+
+
+		<!-- Second Row-->
+			
+
+				<tr>
+
+					<th>
+						<div style = "color:green; font-weight:bold">
+							<span>Gender<span>
+						</span>
+					</th>
+
+					<td><div style = "color:green; font-weight:bold">Male</div></td>
+
+					<td rowspan = "4">
+						<img src = "me.jpg" alt = "it's my photo!" height = "100px" width = "75px">
+						<p>My photo</p>
+					</td>
+
+				</tr>
+
+
+		<!-- Third Row-->
+				<tr>
+
+					<th>
+						<div style = "color:green; font-weight:bold">
+							<span>Grade</span>
+						</div>
+					</th>
+
+					<td><div style = "color:green; font-weight:bold">sophomore</div></td>
+
+				</tr>
+
+
+
+		<!-- Fourth Row-->
+
+			<div class = "special" style = "color:red">
+
+				<tr>
+
+					<th>
+						<div class = "special" style = "color:red">
+							<span>Hobbies</span>
+						</div>
+					</th>
+
+					<td>
+						<div class = "special" style = "color:red">Swimming and Soccer</div>
+
+					</td>
+				</tr>
+
+
+		<!-- Fifth Row-->
+				<tr>
+
+					<th>
+						<div class = "special" style = "color:red">
+							<span>Major</span>
+						</div>
+					</th>
+
+					<td><div class = "special" style = "color:red">Economics</div></td>
+
+				</tr>
+
+
+		<!-- Sixth Row-->
+			<tr>
+				<th colspan = "3">Nice to <span>meet</span> you!</th>
+			</tr>
+
+
+
+		</table>
+	</form>
+</body>
+</html>
