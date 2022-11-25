@@ -1,0 +1,21 @@
+#header {
+	background-color: red;
+	color: black;
+}
+
+.special p {
+	color:inherit;
+	text-decoration: line-through;
+}
+
+p {
+	color:blue;
+}
+
+p em {
+	text-decoration: underline;
+}
+
+h1 em {
+	text-decoration: overline;
+}
