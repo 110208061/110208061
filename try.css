@@ -19,3 +19,40 @@ p em {
 h1 em {
 	text-decoration: overline;
 }
+
+.super {
+	position:relative;
+	top:-1ex;
+}
+
+.sub {
+	position:relative;
+	bottom:-1ex;
+}
+
+.shiftleft {
+	position:relative;
+	left:-1ex;
+}
+
+.shiftright {
+	position:relative;
+	right:-1ex;
+}
+
+.background {
+	position:absolute;
+	top:300px;
+	left:600px;
+	z-index:1;
+}
+
+.foreground {
+	position:absolute;
+	top:400px;
+	left:600px;
+	z-index:2;
+}
+
+
+
