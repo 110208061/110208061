@@ -8,17 +8,22 @@
 <body>
 
 <script>
+var output;
+var x = 1;
 
-function getValue()
-  {
-  var x=document.getElementById("myHeader")
-  alert(x.innerHTML)
-  }
+function start() {
+	var x = 5;
+
+	output = "<p> local x in start is " + x + "<p>";
+	functionA();
+	functionB();
+	output += "<p> local x in start is " + x + "<p>";
+
+
+}
 
 </script>
 
-<h1 id="myHeader" onclick="getValue()">This is a header</h1>
-<p>Click on the header to alert its value</p>
 
 </body>
 </html>
